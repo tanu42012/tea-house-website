@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea house websites</title>
+    <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- content -->
+     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- header section -->
+         <header class="flex pt-10 mb-20">
+            <!-- text content -->
+             <div>
+                <h1 class="text-6xl font-bold">its good <br> tea time at the <br> tea house</h1>
+                <br>
+                <p class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio beatae adipisci perspiciatis.</p>
+                <br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"><i class="fa-solid fa-arrow-right"></i>Explore more</button>
+             </div>
+             <!-- image content -->
+              <div class="relative">
+                <!-- image -->
+               <div>
+                <img class="w-full" src="images/banner.png" alt="">
+
+               </div >
+               <!-- card -->
+                <div class=" absolute flex justify-center items-center
+                bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+                    <div >
+                        <h1>star</h1>
+                    </div>
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-gray-500">trust pilot rating</p>
+    
+                    </div>
+                </div>
+              </div>
+
+         </header>
+
+     </main>
+    
+</body>
+</html>
