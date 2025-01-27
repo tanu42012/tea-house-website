@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font aswam  -->
+    <script src="https://kit.fontawesome.com/0f457f790b.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -26,14 +28,14 @@
     <!-- content -->
      <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- header section -->
-         <header class="flex pt-10 mb-20">
+         <header class="lg:flex pt-10 mb-20">
             <!-- text content -->
              <div>
                 <h1 class="text-6xl font-bold">its good <br> tea time at the <br> tea house</h1>
                 <br>
                 <p class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio beatae adipisci perspiciatis.</p>
                 <br>
-                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"><i class="fa-solid fa-arrow-right"></i>Explore more</button>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore more <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
              </div>
              <!-- image content -->
               <div class="relative">
@@ -46,7 +48,7 @@
                 <div class=" absolute flex justify-center items-center
                 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
                     <div >
-                        <h1>star</h1>
+                        <h1 class="text-2xl text-amber-500"><i class="fa-solid fa-star"></i></h1>
                     </div>
                     <div class="ml-2">
                         <h2 class="lg:text-2xl font-bold">5.00</h2>
@@ -57,6 +59,55 @@
               </div>
 
          </header>
+         <!-- feature product section -->
+          <section class="py-8 lg:py-24">
+            <!-- title -->
+             <div class="text-center mb-8">
+              <h1 class="text-3xl md:text-4xl font-bold mb-4">Our Feature Products</h1>
+              <p class="text-gray-600 max-w-xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse cum ab eius blanditiis veritatis? Consequatur magnam inventore numquam beatae.</p>
+             </div>
+             <!-- grid card -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+                <!-- product card 1-->
+                 <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                  <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+                  <div class="p-4">
+                    <h1 class="font-bold text-xl">Milk Tea</h1>
+                  <P class="text-gray-600">Creamer could be replaced by fresh milk</P>
+                  </div>
+
+                 </div>
+                 <!-- product card 2 -->
+                 <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                  <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+                  <div class="p-4">
+                    <h1 class="font-bold text-xl">Black Tea</h1>
+                  <P class="text-gray-600">Creamer could be replaced by fresh milk</P>
+                  </div>
+
+                 </div>
+                 <!-- product card 3-->
+                 <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                  <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+                  <div class="p-4">
+                    <h1 class="font-bold text-xl">Lemon Tea</h1>
+                  <P class="text-gray-600">Creamer could be replaced by fresh milk</P>
+                  </div>
+
+                 </div>
+
+                 <!-- product card 4-->
+                 <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                  <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+                  <div class="p-4">
+                    <h1 class="font-bold text-xl">Green Tea</h1>
+                  <P class="text-gray-600">Creamer could be replaced by fresh milk</P>
+                  </div>
+
+                 </div>
+              </div>
+
+          </section>
 
      </main>
     
